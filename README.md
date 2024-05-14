@@ -1,2 +1,1 @@
-This is Everything is object in Python
-It explains concepts such as aliases, clonning sets, enumeration and etc
+Welcome to higher language programing with python
