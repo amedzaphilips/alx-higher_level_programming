@@ -5,4 +5,5 @@
 """
 
 def lookup(obj):
-    return list(dir(obj))
+    """ returns a list of available attributes and objects"""
+    return dir(obj))
