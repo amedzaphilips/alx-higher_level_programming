@@ -1,6 +1,4 @@
 #!/bin/bash
 # Sends and request and outputs count
 
-response_body=$(curl -s "$1")
-length=${#response_body}
-echo "$length"
+curl -s -o /dev/null -w '%{size_download}\n' "$1"
